@@ -45,7 +45,7 @@ class Solution2():
 print(Solution2().twoSum([2, 7, 11, 15], 9))
 
 
-class Sloution3():
+class Solution3():
     def twoSum(self, nums, target):
         dict = {}
         for i, m in enumerate(nums):
@@ -54,4 +54,4 @@ class Sloution3():
             dict[m] = i
 
 
-print(Sloution3().twoSum([2, 7, 11, 15], 9))
+print(Solution3().twoSum([2, 7, 11, 15], 9))
